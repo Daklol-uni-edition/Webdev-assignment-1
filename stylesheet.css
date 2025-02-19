@@ -1,0 +1,27 @@
+ul {
+    font-family:"Roboto", serif;
+    margin: 0;
+    padding: 0;
+    width:100px;
+}
+
+li a{
+    background-color: #555555;
+    display:block;
+    color: #ffffff;
+    padding:10%;
+    text-decoration: none;
+    text-align:left;
+}
+
+li a:hover{
+    background-color:white;
+    color:black;
+}
+
+.banner{
+    width:90%;
+    height:auto;
+    padding:0;
+    float:right;
+}
