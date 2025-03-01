@@ -7,6 +7,11 @@ ul{
     min-width:100px;
 }
 
+body{
+    background-color: rgb(38, 41, 43);
+    color:white;
+}
+
 .nav{
     width:100%;
     font-family:"Roboto", serif;
@@ -43,7 +48,29 @@ hr{
     border-width: 10px;
 }
 
-.map{
-    border: 1px solid black;
-    overflow:auto;
+
+
+@media screen and (max-width: 800px) {
+    .main{
+        word-wrap:break-word;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .map{
+        overflow:auto;
+        margin-left:10%;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .main{
+        word-wrap: break-word;
+        margin-left:20%;
+    }
+
+    .map{
+        overflow:auto;
+        margin-left:20%;
+    }
+    
 }
