@@ -1,58 +1,6 @@
-ul{
-    list-style: none;
-    margin: 0;
-    padding:0;
-    padding-top: 10px;
-    width:100%;
-    min-width:100px;
-}
-
-body{
-    background-color: rgb(38, 41, 43);
-    color:white;
-}
-
-.nav{
-    width:100%;
-    font-family:"Roboto", serif;
-    border-left: 15px solid #555555;
-    background-color: #aaaaaa;
-    display:block;
-    color: #ffffff;
-    padding:13%;
-    text-decoration: none;
-    text-align:left;
-    margin-bottom:10px;
-    max-height:75px;
-}
-
-.hovering:hover{
-    background-color:white;
-    color:black;
-}
-
-.banner{
-    overflow:hidden;
-    width:80vw;
-    max-height:350px;
-    position:relative;
-    padding: 10px;
-    margin-left:2vw;
-}
-
-li.selected{
-    background-color:#555555;
-}
-
-hr{
-    border-width: 10px;
-}
-
-
 
 @media screen and (max-width: 800px) {
     .main{
-        word-wrap:break-word;
         margin-left:5%;
         margin-right:5%;
     }
@@ -64,7 +12,6 @@ hr{
 
 @media screen and (min-width: 800px){
     .main{
-        word-wrap: break-word;
         margin-left:20%;
     }
 
