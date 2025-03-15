@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport", content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width initial-scale=1">
     <title>Home</title>
 
 
@@ -23,21 +23,25 @@
 
             <div class="col-sm-2 col-md-3, col-lg-2">
                 <div>
+                    <!-- Bootstrap override to make it not use bootstraps default styles for the navigation -->
                     <ul id="bootstrap-override">
+                        <!-- Technically this does not pass validation but i do not see another way of making this work like it does -->
                         <li class="nav selected">Home</li>
-                        <a href="visit.html"'><li class="nav hovering" > Visit! </li></a>
-                        <a href="history.html"'><li class="nav hovering"> History! </li></a>
+                        <a href="visit.html"><li class="nav hovering" > Visit! </li></a>
+                        <a href="history.html"><li class="nav hovering"> History! </li></a>
                     </ul>
                 </div>
             </div>
+            <!-- Column spacing inconsistent because otherwise the rows start stacking too early -->
             <div class="col-sm-10 col-md-9 col-lg-10">
-                   <img class="banner" src="Images/Legnica banner.jpg" alt="High shot of Legnica">
+                   <img class="banner" src="Images/Legnica_banner.jpg" alt="Evening Bridge view of Legnica">
             </div>
         </div>
-
+        <!-- Divider between banner and content -->
         <div class="row"><hr></div>
 
         <div class="row main">
+            <!-- content fills whole column at xs screen size (540px i believe) as otherwise the rows do not stack at small screen sizes -->
             <div class="col-xs-12 col-sm-4">
                 <h1>Overview</h1>
                 <p>Legnica is a city located in the southwest of poland upon the river Kaczawa, also known as Katzbach in english, it is quite an old city so it is full of historical architecture some of which dates back to medieval times such as the Cathedral of saints Peter and Paul, making it a great place to be able to admire the past.</p>

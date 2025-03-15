@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 800px) {
+    .main{
+        margin-left:5%;
+        margin-right:5%;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .main{
+        margin-left:20%;
+    }
+    
+}
+
+
+img{
+    position:relative;
+    float:right;
+    margin:20px
+}
