@@ -1,4 +1,4 @@
-
+/* changing map and text margins to make them scale a little nicer (nightamre to get right) */
 @media screen and (max-width: 800px) {
     .main{
         margin-left:5%;

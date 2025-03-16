@@ -1,4 +1,4 @@
-
+/*Changing margins depending on screen size, just makes it looks nicer when scaled down*/
 @media screen and (max-width: 800px) {
     .main{
         margin-left:5%;

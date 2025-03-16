@@ -1,9 +1,12 @@
+
 ul{
+    /*removes bullet points*/
     list-style: none;
     margin: 0;
     padding:0;
     padding-top: 10px;
     width:100%;
+    /*Makes it still readable when scaling down*/
     min-width:100px;
     padding-bottom:5px;
 }
@@ -24,11 +27,13 @@ body{
     text-decoration: none;
     text-align:left;
     margin-bottom:10px;
+    /*Sets a minimum size for the navigation while still scaling it with screen size*/
     font-size:calc(16px + 1.2vw);
     height:calc(70px + 1.2vw);
 }
 
 ul a{
+    /*removes the blue line on links*/
     text-decoration: none;
 }
 
@@ -36,6 +41,7 @@ li.selected{
     background-color:#555555;
 }
 
+/*makes the buttons change style when hovering over them*/
 .hovering:hover{
     background-color:white;
     color:black;
@@ -50,7 +56,7 @@ li.selected{
     margin-left:2vw;
     border-radius: 20px;
 }
-
+/* just some general styles for things */
 hr{
     border-width: 10px;
 }

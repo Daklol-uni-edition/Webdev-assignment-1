@@ -4,7 +4,7 @@
 }
 
 
-
+/* changing padding for scaling */
 @media screen and (max-width: 768px){
     .body-right{
         padding-right:20%;
